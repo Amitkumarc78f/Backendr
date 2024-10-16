@@ -16,7 +16,7 @@ connectDB();
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin:process.env.FRONT_END_URL || "http://localhost:5173",
+  origin:process.env.FRONT_END_URL || "https://frontend1-firg.onrender.com/",
   methods:['GET','POST','PUT','DELETE'],
   credentials:true
 }))
